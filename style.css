@@ -3,11 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto'; 
-}
-    
+}    
 
 body {
-    background-color: #1F2937;  
+
 }
 
 
@@ -20,6 +19,7 @@ body {
 .section1 {
     display: flex;
     flex-direction: column;
+    background-color: #1F2937;
 }
 
 .top {
@@ -27,9 +27,6 @@ body {
     padding-bottom: 100px;
     padding-top: 10px;
     }
-
-
-
 
 .header-left {
     color: white;
@@ -56,8 +53,7 @@ ul {
     justify-content: space-evenly;
 }
 
-
-.title {
+.main-title {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 700;
@@ -110,5 +106,144 @@ button {
     padding-bottom: 130px;
 }
 
+.title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.title1 {
+    display: flex; 
+    align-content: center; 
+    justify-content: center;
+    font-size: 36px; 
+    color: #1F2937
+    font-weight: 900; 
+    padding: 50px 0;
+}
+
+.first-main-container {
+    padding-bottom: 100px;
+
+}
 
 
+.container, .container-two {
+    display: flex; 
+    justify-content: center;
+    align-content: center;
+    gap: 52px;
+}
+
+.container {
+    font-size: 0;
+}
+
+.info {
+    max-width: 200px; 
+    border-radius: 10px;
+    overflow: hidden;
+    border: 2px solid #3882f6;
+}
+
+
+.text {
+    width: 196px; 
+    text-align: center;
+    padding-top: 5px;
+}
+
+
+
+.quote-section, .artist {
+    background-color: #e5e7eb;
+    display: flex;
+
+}
+
+.quote {
+    font-size: 40px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: 300;
+  
+}
+
+.artist {
+    font-weight: 900;
+    font-size: 20px;
+    padding-left: 600px;
+    justify-content: center;
+    padding-bottom: 120px;
+}
+
+.quote-section {
+    padding: 120px 500px 0; 
+}
+
+.parent-bottom {
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-between; 
+    padding-left: 90px;
+    padding-top: 40px;
+    padding-right: 90px;
+    padding-bottom: 40px;
+    flex-grow: 1; 
+    border-radius: 15px;
+}
+
+.button-two {
+    display: flex;
+    align-items: center; 
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+}
+
+.container-three {
+    display: flex;
+    width: 1000px;
+    background-color: white;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    align-items: center;
+
+}
+
+.container-four {
+    display: flex; 
+    flex-direction: column;    
+}
+ 
+.top-two {
+    color: #f9faf8;
+    font-size: 24px; 
+
+}
+
+.bottom-two {
+    color: #a6a2a2; 
+  
+}
+
+button {
+    border: 2px solid white;
+    background-color: #3882f6;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    
+
+}
